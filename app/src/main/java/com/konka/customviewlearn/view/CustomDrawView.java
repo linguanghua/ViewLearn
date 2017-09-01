@@ -137,6 +137,51 @@ public class CustomDrawView extends View {
 
         paint.setColor(Color.WHITE);
         paint.setStyle(Paint.Style.STROKE);
+
+       // canvas.drawArc(200,200,600,600,-180,60,false,paint);
+        Path lpath = new Path();
+        paint.setStrokeWidth(3);
+        lpath.addArc(200,200,600,600,-120,1);
+        lpath.lineTo(230,200);
+        lpath.lineTo(100,200);
+
+
+        lpath.addArc(210,210,610,610,-30,1);
+        lpath.lineTo(620,250);
+        lpath.lineTo(750,250);
+
+
+        lpath.addArc(210,210,610,610,-3,1);
+        lpath.lineTo(750,400);
+
+        lpath.addArc(210,210,610,610,5,1);
+        lpath.lineTo(630,470);
+        lpath.lineTo(750,470);
+
+        lpath.addArc(210,210,610,610,35,1);
+        lpath.lineTo(700,650);
+        lpath.lineTo(800,650);
+
+        lpath.addArc(210,210,610,610,125,1);
+        lpath.lineTo(230,630);
+        lpath.lineTo(100,630);
+
+        canvas.drawPath(lpath,paint);
+
+        paint.setColor(Color.BLACK);
+        paint.setTextSize(30);
+        canvas.drawText("1月",100,200,paint);
+        canvas.drawText("2月",750,250,paint);
+        canvas.drawText("3月",750,400,paint);
+        canvas.drawText("4月",750,470,paint);
+        canvas.drawText("5月",800,650,paint);
+        canvas.drawText("6月",100,630,paint);
+
+        //柱状图
+
+        paint.setColor(Color.WHITE);
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setStrokeWidth(5);
         Path path = new Path();
 
         path.moveTo(100,750);
@@ -165,6 +210,8 @@ public class CustomDrawView extends View {
         canvas.drawText("4月",450,1490,paint);
         canvas.drawText("5月",550,1490,paint);
         canvas.drawText("6月",650,1490,paint);
+
+
 
     }
 
