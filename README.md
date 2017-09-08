@@ -3,4 +3,4 @@
 
 ![Image text](https://github.com/linguanghua/ViewLearn/blob/master/img/xiaoguo.png)
 
-![Image text](https://github.com/linguanghua/ViewLearn/blob/master/img/xiaoguo1.png)
+![Image text](https://github.com/linguanghua/ViewLearn/blob/master/img/xiaogou1.png)
