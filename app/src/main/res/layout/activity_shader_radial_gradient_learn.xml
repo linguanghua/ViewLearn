@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.konka.customviewlearn.activity.ShaderLinearGradientLearnActivity">
-
-    <com.konka.customviewlearn.view.ShaderLinearGradient
+    tools:context="com.konka.customviewlearn.activity.ShaderRadialGradientLearnActivity">
+    <com.konka.customviewlearn.view.ShaderRadialGradient
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

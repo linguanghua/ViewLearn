@@ -13,18 +13,19 @@ import android.view.View;
 /**
  * Created by Linxu on 2017-9-8.
  * paint使用Shader的子类设置颜色
+ * Shader设置颜色效果，LinearGradient 线性渐变部分
  */
 
-public class CustomDrawColorView extends View {
-    public CustomDrawColorView(Context context) {
+public class ShaderLinearGradient extends View {
+    public ShaderLinearGradient(Context context) {
         super(context);
     }
 
-    public CustomDrawColorView(Context context, @Nullable AttributeSet attrs) {
+    public ShaderLinearGradient(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public CustomDrawColorView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public ShaderLinearGradient(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

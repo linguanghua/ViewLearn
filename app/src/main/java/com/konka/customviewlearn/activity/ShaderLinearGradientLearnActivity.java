@@ -1,11 +1,11 @@
-package com.konka.customviewlearn;
+package com.konka.customviewlearn.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.konka.customviewlearn.R;
 
-public class CustomDrawColorLearnActivity extends AppCompatActivity {
+public class ShaderLinearGradientLearnActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
