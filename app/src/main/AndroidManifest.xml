@@ -10,11 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.ShaderLinearGradientLearnActivity">
+        <activity android:name=".activity.ShaderLinearGradientLearnActivity"></activity>
+        <activity android:name=".activity.ShaderRadialGradientLearnActivity" />
+        <activity android:name=".activity.BitmapShaderLeanActivity">
 
         </activity>
-        <activity android:name=".activity.ShaderRadialGradientLearnActivity"></activity>
-        <activity android:name=".activity.BitmapShaderLeanActivity">
+        <activity android:name=".activity.ComposeShaderLearnActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

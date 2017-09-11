@@ -35,7 +35,7 @@ public class BitmapShaderLearnView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.bitman);
+        bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.batman);
 
         drawBitmapShaderCLAMP(canvas);
         drawBitmapShaderMIRROR(canvas);
